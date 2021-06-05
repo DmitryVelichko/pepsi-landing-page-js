@@ -19,5 +19,6 @@
       transition: 0.5s;
   }
 
-
-  11.40 сделать коммит
+  header {
+    position: absolute;
+  }
