@@ -52,4 +52,7 @@
     text-decoration: none;
   }
 
-  
+  .content {
+    position: relative;
+    width: 100%;
+  }
