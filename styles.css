@@ -72,3 +72,7 @@
     font-weight: 900;
     text-transform: uppercase;
   }
+
+.content .textBox h2 span {
+  font-size: 2em;
+}
