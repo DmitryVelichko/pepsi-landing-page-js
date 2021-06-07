@@ -93,3 +93,11 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  padding-right: 50px;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
