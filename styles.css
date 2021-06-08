@@ -186,6 +186,11 @@
     opacity: 0;
   }
 
+  header ul.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
   header ul li a {
     display: inline-block;
     color: #111;
@@ -216,5 +221,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
+    filter: invert(1);
+  }
+
+  .content {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .content .textBox {
+    position: relative;
+    max-width: 600px;
   }
 }
