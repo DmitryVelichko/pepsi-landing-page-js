@@ -30,9 +30,9 @@
         </div>
       </div>
       <ul class="thumb">
-        <li><img src="images/pepsi001.png"></li>
-        <li><img src="images/pepsi002.png"></li>
-        <li><img src="images/pepsi003.png"></li>
+        <li><img src="images/pepsi001.png" onmouseover="imgSlider('images/pepsi001.png'); changeBgColor('#0062be')"></li>
+        <li><img src="images/pepsi002.png" onmouseover="imgSlider('images/pepsi002.png'); changeBgColor('#e60c2c')"></li>
+        <li><img src="images/pepsi003.png" onmouseover="imgSlider('images/pepsi003.png'); changeBgColor('#1e1e1e')"></li>
       </ul>
       <ul class="sci">
         <li><a href="#"><img src="images/facebook.png"></a></li>
@@ -40,5 +40,15 @@
         <li><a href="#"><img src="images/instagram.png"></a></li>
       </ul>
     </section>
+    <script type="text/javascript">
+      function imgSlider(img) {
+        document.querySelector('.pepsi').src = img;
+      }
+
+      function changeBgColor(color) {
+        const sec = document.querySelector('.sec');
+        sec.style.background = color;
+      }
+    </script>
 </body>
 </html>
