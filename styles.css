@@ -10,7 +10,7 @@
   section {
       position: relative;
       width: 100%;
-      max-height: 100vh;
+      min-height: 100vh;
       padding: 100px;
       display: flex;
       justify-content: space-between;
@@ -159,6 +159,7 @@
 @media (max-width: 991px) {
   section {
     padding: 40px;
+    padding-bottom: 140px; 
   }
 
   header {
@@ -237,5 +238,32 @@
 
   .content .textBox h2 {
     font-size: 3em;
+  }
+
+  .content .textBox a {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .content .imgBox {
+    width: 100%;
+    display: flex;
+    padding-right: 0;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .content .imgBox img {
+    max-width: 150px;
+  }
+
+  .thumb li img {
+    max-width: 30px;
+  }
+
+  .sci {
+    right: 0;
+    width: 50px;
+    background: rgba(0,0,0,0.2);
   }
 }
